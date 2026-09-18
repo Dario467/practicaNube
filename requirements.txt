@@ -4,8 +4,3 @@ boto3
 psycopg2-binary
 pillow
 python-multipart
-
-curl -X POST http://98.93.9.80:8000/events \
-  -F "client_name=Boda Juan y Maria" \
-  -F "event_type=Boda" \
-  -F "event_date=2024-12-01"
